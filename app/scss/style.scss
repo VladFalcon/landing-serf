@@ -97,4 +97,74 @@
   }
 }
 
+.header_aside{
+  text-align: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 5;
+  border-right: 1px solid rgba(#fff, .25);
+  height: 100vh;
+  color: #FFFFFF;
+}
+
+.header_title{
+  font-weight: 800;
+  font-size: 200px;
+  line-height: 156px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  opacity: 0.07;
+  max-width: 467px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 4;
+
+}
+
+.menu{
+  margin-top: 20px;
+     a{
+      color: #FFFFFF;
+      span{
+        display: block;
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 14px;
+        text-align: center;
+        letter-spacing: 3px;
+        padding-top: 6px;
+        margin-bottom: 37px;
+      }
+    }
+  }
+.header_date{
+  margin-top: 20px;
+  font-weight: 800;
+  font-size: 72px;
+  line-height: 64px;
+    span{
+      font-weight: 300;
+      font-size: 16px;
+      line-height: 19px;
+      letter-spacing: 1.4px;
+      margin-bottom: 30px;
+      display: block;
+  }
+}
+.header_location{
+  display: inline-block;
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 14px;
+  letter-spacing: 1.05px;
+  }
+
+
+
+
+
+
+
 @import "media";
