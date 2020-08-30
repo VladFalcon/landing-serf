@@ -171,5 +171,19 @@
   letter-spacing: 1.05px;
 }
 
+.header_map{
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: 3;
+}
+
+.header_arrows{
+  position: absolute;
+  left: 210px;
+  bottom: 40px;
+  z-index: 3;
+}
+
 
 @import "media";
